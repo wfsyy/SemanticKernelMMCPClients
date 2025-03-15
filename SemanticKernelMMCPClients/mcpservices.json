@@ -1,0 +1,31 @@
+{
+  "McpServices": [
+    {
+      "Id": "everything",
+      "Name": "Everything",
+      "TransportType": "stdio",
+      "TransportOptions": {
+        "command": "npx",
+        "arguments": "-y @modelcontextprotocol/server-everything"
+      }
+    },
+    {
+      "Id": "github",
+      "Name": "GitHub Tools",
+      "TransportType": "stdio",
+      "TransportOptions": {
+        "command": "npx",
+        "arguments": "-y @modelcontextprotocol/server-github"
+      }
+    },
+    {
+      "Id": "filesystem",
+      "Name": "FileSystem",
+      "TransportType": "stdio",
+      "TransportOptions": {
+        "command": "npx",
+        "arguments": "-y @modelcontextprotocol/server-filesystem D:\\"
+      }
+    }
+  ]
+} 
